@@ -10,10 +10,15 @@
     will need to resolve manually.
 */
 
+Ext.Loader.setPath({
+    'Ext.ux': 'vendor/ux'
+});
+
 Ext.application({
     name: 'SenchaTouchParseSdkExample',
 
     requires: [
+        'Ext.ux.parse.app.Application',
         'Ext.MessageBox'
     ],
 
@@ -45,6 +50,11 @@ Ext.application({
         '748x1024': 'resources/startup/748x1024.png',
         '1536x2008': 'resources/startup/1536x2008.png',
         '1496x2048': 'resources/startup/1496x2048.png'
+    },
+
+    parseConfig: {
+        applicationId: 'iicdl7NrC5ajGUXrQhDxI5ReyF5D0sLtmeaHGO7f',
+        apiKey: 'oxXCWboua5h0tBhUQKAt1fhswdioarZRLrXu6rbC'
     },
 
     launch: function() {

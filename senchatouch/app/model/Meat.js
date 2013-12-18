@@ -3,7 +3,9 @@ Ext.define('SenchaTouchParseSdkExample.model.Meat', {
 
     config: {
         fields: [
+            { name: 'objectId', type: 'auto', persist: false},
             { name: 'name', type: 'string' }
-        ]
+        ],
+        idProperty: 'objectId'
     }
 });
