@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "_default": {
+            "link": "senchatouch-parse-sdk-example"
+        }, 
+        "senchatouch-parse-sdk-example": {
+            "applicationId": "iicdl7NrC5ajGUXrQhDxI5ReyF5D0sLtmeaHGO7f", 
+            "masterKey": "aCPY94uhJ7JOQyLl854nDw80xljNH7MBY7A3urj2"
+        }
+    }
+}
